@@ -163,6 +163,7 @@ router.post("/", function(req, res, next) {
         if (users[userIndex].wordsCounted + wordsNumber <= 80000) {
           users[userIndex].wordsCounted += wordsNumber;
           finalText = justifyText(initialText);
+          res.set('Content-Type', 'text/plain');
           res.send(finalText);
         } else {
           res.status(402).json({ message: "nombre de mots limité à 80000 !" });
