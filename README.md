@@ -1,5 +1,7 @@
 NB: Application déployé sur la plateforme heroku
+
 URL : https://url-exo-tictactrip.herokuapp.com
+
 Outil utilisé: Postman
 
 Liste des emails des utilisateurs pour recevoir un token : 'foo@bar.com', 'test@bar.com', 'exemple@bar.com'.
