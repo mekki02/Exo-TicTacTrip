@@ -1,0 +1,21 @@
+{
+  "name": "testexo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jwt-simple": "^0.5.5",
+    "letter-count": "^2.8.9",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.6",
+    "ontime": "0.0.6"
+  }
+}
